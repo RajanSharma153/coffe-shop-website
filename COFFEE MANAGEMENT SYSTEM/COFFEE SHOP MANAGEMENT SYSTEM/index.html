@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Website</title>
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+     <header class="header">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="Coffee">
+        </a>
+        
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">reviews</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container"></div>
+     </header>
+
+     <!-- Home Section -->
+      <section class="home" id="home">
+        <div class="content">
+            <h3>Savor Every Sip of Perfection</h3>
+            <p>Welcome to <i> Brew Haven</i>, where every sip tells a story! 💛 Step into a cozy space filled with the rich aroma of freshly brewed coffee, handcrafted with passion. Whether you're here for your morning boost, a relaxed afternoon, or a late-night indulgence, we serve the perfect cup just for you.</p>
+            <a href="#menu" class="btn">Get Yours Now!</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+       <section class="about" id="about">
+        <h1 class="heading"> <span> About </span> Us </h1>
+         <div class="row">
+
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>What Makes our Coffee Special?</h3>
+                <p>At Brew Haven, coffee isn't just a drink—it's an experience. We serve only coffee, but every cup is crafted with precision, passion, and the finest beans from around the world. Whether you crave a bold espresso, a velvety latte, or a smooth cold brew, we ensure every sip delivers rich flavor and unmatched quality.</p>
+                <p>What sets us apart? It's our dedication to freshness, expert brewing techniques, and your freedom to enjoy coffee your way. Order online for a quick caffeine fix or visit us to savor the aroma and warmth of a freshly brewed cup. However you like it, we make sure every coffee moment is special. ✨</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+       </section>
+
+       <!-- Menu Section -->
+        <section class="menu" id="menu">
+            <h1 class="heading"> Our <span> Menu </span> </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/menu-item1.png" alt="">
+                    <h3>Espresso Shot</h3>
+                    <div class="price"> $15.97 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item2.png" alt="">
+                    <h3>Velvet Latte</h3>
+                    <div class="price"> $17.43 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item3.png" alt="">
+                    <h3>Dark Aroma</h3>
+                    <div class="price"> $13.29 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item4.png" alt="">
+                    <h3>Frosted Frappe</h3>
+                    <div class="price"> $11.73 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item5.png" alt="">
+                    <h3>Classic Brew</h3>
+                    <div class="price"> $12.54 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item6.png" alt="">
+                    <h3>Caramel Dream</h3>
+                    <div class="price"> $13.42 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item7.png" alt="">
+                    <h3>Coffee Cappuccino</h3>
+                    <div class="price"> $15.84 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item8.png" alt="">
+                    <h3>Cold Coffee</h3>
+                    <div class="price"> $19.21 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+                <div class="box">
+                    <img src="images/menu-item9.png" alt="">
+                    <h3>Mocha Bliss</h3>
+                    <div class="price"> $17.32 </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+         <section class="products" id="products">
+            <h1 class="heading"> Our <span> Products </span> </h1>
+              <div class="box-container">
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/product1.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3> Powder Coffee </h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                        <div class="price"> $23.96 <span> $26.00 </span> </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/product2.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3> Coffee Beans </h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                        <div class="price"> $20.78 <span> $22.00 </span> </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/product3.png" alt="">
+                    </div>
+
+                    <div class="content">
+                        <h3> Ready to Make! </h3>
+                         <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                         </div>
+                        <div class="price"> $27.52 <span> $30.99 </span> </div>
+                    </div>
+                </div>
+
+              </div>
+         </section>
+
+         <!-- Reviews Section -->
+          <section class="review" id="review">
+            <h1 class="heading"> Customer's <span> Reviews </span> </h1>
+            
+             <div class="box-container">
+
+                <div class="box">
+                    <img src="images/quote.png" alt="" class="quote">
+                     <p>A coffee lover's paradise! The variety, the aroma, the taste—everything is just perfect. I love that I can enjoy my favorite brew from the comfort of my home or in their cozy space!</p>
+                    <img src="images/client1.jpg" class="user" alt="">
+                     <h3> Michael Terrace </h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/quote.png" alt="" class="quote">
+                     <p>Absolutely the best coffee I've ever had! Every sip is rich, smooth, and full of flavor. Whether ordering online or visiting in person, the experience is always top-notch!</p>
+                    <img src="images/client2.jpg" class="user" alt="">
+                     <h3> Sarah Watson </h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                </div>
+
+                <div class="box">
+                    <img src="images/quote.png" alt="" class="quote">
+                     <p>One sip and I was hooked! The flavors are deep, rich, and absolutely divine. Whether you love strong espressos or creamy lattes, they have the perfect cup for you!</p>
+                    <img src="images/client3.jpg" class="user" alt="">
+                     <h3> James Brandon </h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                </div>
+
+             </div>
+          </section>
+
+          <!-- Contact Section -->
+           <section class="contact" id="contact">
+            <h1 class="heading"> <span> Contact </span> Us </h1>
+             
+            <div class="row">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18! 1m12!1m3!1d3683.7916498854183!2d77.4126151160627 !3d23.259933084848334!2m3!1f0!2f0!3f0!3m2!1i1024 !2i768!4f13.1!3m3!1m2!1s0x397c426c7b2f4eeb%3A0x4 b5f7a021dbb1981!2sBhopal%2C%20Madhya%20Pradesh!5 e0!3m2!1sen!2sin!4v1659943788301!5m2!1sen!2sin" width="600" height="450" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <form action="">
+                   <h3> Get In Touch!</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="name">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" placeholder="number">
+                    </div>
+                    <input type="submit" value="Contact Now" class="btn">
+                </form>
+             </div>
+           </section>
+
+           <!-- Blogs Section -->
+            <section class="blogs" id="blogs">
+                <h1 class="heading"> Our <span> Blogs </span> </h1>
+
+                <div class="box-container">
+
+                    <div class="box">
+                      <div class="image">
+                         <img src="images/blog1.jpg" alt="">
+                      </div>
+                      <div class="content">
+                        <a href="#" class="title"> Brewing Beyond the Cup: Coffee Tips & Trends </a>
+                        <span> Brew Haven Team / 5 June 2023 </span>
+                        <p> Coffee is more than just a drink! Discover the latest coffee trends and expert tips to brew your perfect cup every time. </p>
+                        <a href="#" class="btn"> read more </a>
+                     </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="image">
+                           <img src="images/blog2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                          <a href="#" class="title"> The Journey from Bean to Cup: A Coffee Lover's Guide </a>
+                          <span> Brew Haven Team / 19 Feb 2024 </span>
+                          <p> From bean to cup, there's a story! Explore the journey of coffee from farm to cup and what makes every brew unique. </p>
+                          <a href="#" class="btn"> read more </a>
+                       </div>
+                      </div>
+
+                      <div class="box">
+                        <div class="image">
+                           <img src="images/blog3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                          <a href="#" class="title"> Sip & Learn: Coffee Hacks, Facts, and Secrets </a>
+                          <span> Brew Haven Team / 29 Sep 2025 </span>
+                          <p> Every cup has a tale to tell! Uncover fun coffee facts and quick hacks to elevate your coffee experience. </p>
+                          <a href="#" class="btn"> read more </a>
+                       </div>
+                      </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+             <section class="footer">
+
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+
+                <div class="links">
+                    <a href="#home">home</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#products">products</a>
+                    <a href="#review">review</a>
+                    <!-- <a href="#contact">contact</a> -->
+                    <a href="#blogs">blogs</a>  
+                </div>
+
+                <div class="end"> Copyright &copy; 2025 <span> Brew Haven </span> | All rights reserved. </div>
+             </section>
+
+     <script src="js/scrip.js"></script>
+</body>
+</html>
