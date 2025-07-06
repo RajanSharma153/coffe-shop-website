@@ -11,4 +11,8 @@ A visually appealing and responsive coffee website, designed using HTML, CSS and
 ## Technologies Used:  
 - **HTML5**: For Structure and semantic elements.  
 - **CSS3**: For styling and responsiveness.  
-- **JavaScript(ES6)**: For interactivity and functionality.  
+- **JavaScript(ES6)**: For interactivity and functionality.
+## overview :
+
+
+<img width="1733" height="878" alt="Image" src="https://github.com/user-attachments/assets/2a51cfb7-a794-452b-a1af-14896a69f36c" />
